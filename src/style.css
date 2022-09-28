@@ -1,3 +1,98 @@
-h1 {
-  color: red;
+.main {
+  background: linear-gradient(
+    90deg,
+    rgb(115, 252, 242) 0%,
+    rgb(92, 60, 181) 81%
+  );
+  max-width: 700px;
+  margin: 90px auto;
+  padding: 40px;
+  border: 10px double #ffffff;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+}
+.search {
+  font-weight: 500;
+  text-align: center;
+}
+.box-search {
+  border-radius: 10px;
+}
+.button {
+  display: inline-block;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+}
+.button:hover {
+  background: rgb(97, 101, 194);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  height: 28px;
+}
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+.row {
+  display: flex;
+  margin: 20px 20px;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  margin: 20px auto;
+  text-align: center;
+}
+.column {
+  flex: 50%;
+  list-style-type: none;
+}
+.li {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 24px;
+}
+
+.capital {
+  text-align: justify;
+  text-align-last: center;
+  padding-left: 100px;
+  margin-bottom: 40px;
+}
+.city {
+  margin: 0px 20px;
+  font-weight: 300;
+  font-size: 14px;
+}
+.text {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+}
+.link {
+  color: #000000;
+  text-decoration: none;
+}
+.link:hover {
+  color: rgb(255, 255, 255);
+}
+#celsius-link,
+#fahrenheit-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#celsius-link:hover,
+#fahrenheit-link:hover {
+  color: #000000;
 }
