@@ -96,3 +96,20 @@
 #fahrenheit-link:hover {
   color: #000000;
 }
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
